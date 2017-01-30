@@ -18,7 +18,6 @@ from django.contrib import admin
 from lists import views as list_views
 
 urlpatterns = [
-    # url(r'^$', home_page, name='home'),
     url(r'^$', list_views.home_page, name='home'),
     # url(r'^admin/', admin.site.urls),
 ]
